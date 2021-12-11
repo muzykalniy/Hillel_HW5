@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
+  width: 1440px;
 }
 .header {
   width: 1440px;
@@ -8,7 +9,6 @@ body {
   background: #f9f7e8;
 }
 .logo {
-  margin: 0;
   display: inline-block;
   width: 181px;
   height: 40px;
@@ -25,7 +25,6 @@ body {
   color: black;
 }
 .home {
-  margin: 0;
   display: inline-block;
   width: 43px;
   height: 19px;
@@ -35,7 +34,6 @@ body {
   color: #000000;
 }
 .about {
-  margin: 0;
   display: inline-block;
   width: 44px;
   height: 19px;
