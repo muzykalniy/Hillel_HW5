@@ -1,18 +1,24 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  width: 1440px;
 }
+
+/* Шапка - навигация */
 .header {
   width: 1440px;
   height: 88px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background: #f9f7e8;
 }
 .logo {
   display: inline-block;
   width: 181px;
   height: 40px;
-  padding: 24px 0 24px 165px;
+  margin-left: 165px;
   font-family: Courgette;
   font-size: 32px;
   line-height: 40px;
@@ -24,30 +30,49 @@ body {
   line-height: 40px;
   color: black;
 }
+.nav {
+  display: inline-block;
+}
 .home {
   display: inline-block;
+  font-size: 16px;
   width: 43px;
   height: 19px;
-  padding: 35px 0 34px 79px;
-  font-size: 16px;
   line-height: 19px;
-  color: #000000;
+  margin-left: 79px;
 }
 .about {
   display: inline-block;
+  font-size: 16px;
   width: 44px;
   height: 19px;
-  padding: 35px 0 34px 21px;
-  font-size: 16px;
   line-height: 19px;
-  color: #000000;
+  margin-left: 21px;
 }
 .features {
   display: inline-block;
   width: 61px;
   height: 19px;
-  padding: 35px 825px 34px 21px;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
+  margin-left: 21px;
+}
+
+/* Название */
+.container_title {
+  width: 1440px;
+  height: 486px;
+  background-color: #d52047;
+  padding: 198px 351px 172px 351px;
+}
+.title {
+  width: 738px;
+  height: 116px;
+  font-family: "Limelight", cursive;
+  font-size: 48px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
