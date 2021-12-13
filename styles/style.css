@@ -5,7 +5,11 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* Шапка - навигация */
 .header {
   width: 1440px;
@@ -41,7 +45,7 @@ body {
   line-height: 19px;
   margin-left: 79px;
 }
-.about {
+.about-link {
   display: inline-block;
   font-size: 16px;
   width: 44px;
@@ -59,77 +63,70 @@ body {
 }
 /* ===============================================================*/
 
-/* Название */
-.container_title {
+/* Hero */
+.hero {
   width: 1440px;
   height: 486px;
   background-color: #d52047;
-  padding: 198px 351px 172px 351px;
-}
-.title {
-  width: 738px;
-  height: 116px;
-  font-family: "Limelight", cursive;
+  padding-top: 198px;
+  padding-bottom: 172px;
+  font-family: Limelight;
   font-size: 48px;
   line-height: 58px;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+.hero-slogan {
+  margin: 0 auto;
+  text-align: center;
 }
 /* ===============================================================*/
 
 /* Секция About */
-.container_about {
-  width: 1440px;
-  height: 621px;
-  padding: 95px 165px 80px 165px;
-  background: #eff8f6;
-  font-size: 0px;
-}
-.title_about {
-  width: 134px;
-  height: 58px;
-  font-weight: bold;
+.section-title {
+  margin: 0;
+  color: #d52047;
   font-size: 48px;
   line-height: 58px;
-  color: #d52047;
 }
-.wrapper_containers_about {
-  font-size: 0;
-  margin-top: 40px;
-}
-.container_about1 {
-  display: inline-block;
-  width: 555px;
-  height: 348px;
-  padding: 24px;
-  background: #e5e5e5;
-  border-radius: 8px 0px 0px 8px;
-  vertical-align: middle;
-}
-.text_about_title {
-  display: inline-block;
-  width: 507px;
-  height: 37px;
-  font-weight: bold;
+
+.section-subtitle {
+  margin: 0;
   font-size: 32px;
   line-height: 38px;
+  color: #000000;
 }
-.text_about {
+.about {
+  padding: 95px 0 80px;
+  width: 1440px;
+  background-color: #eff8f6;
+}
+
+.about-content {
+  margin-top: 40px;
+  font-size: 0;
+}
+
+.about-text {
   display: inline-block;
-  width: 507px;
-  height: 239px;
+  width: 50%;
+  padding: 24px;
+  vertical-align: top;
+  border-radius: 9px 0px 0px 9px;
+  background-color: #e5e5e5;
+}
+
+.about-description {
+  margin: 24px 0 0;
   font-size: 24px;
   line-height: 29px;
-  font-style: normal;
-  font-weight: normal;
-  padding-top: 24px;
 }
-.container_about2 {
+
+.about-image {
   display: inline-block;
-  width: 555px;
-  height: 348px;
-  border-radius: 0px 8px 8px 0px;
-  vertical-align: middle;
+  width: 50%;
+  height: 334px;
+  vertical-align: top;
+  border-radius: 0px 9px 9px 0px;
 }
 /* ===============================================================*/
