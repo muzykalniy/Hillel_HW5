@@ -43,7 +43,7 @@ body {
 }
 a:hover {
   text-decoration: none;
-  color: tomato;
+  color: lightskyblue;
 }
 .link_home {
   margin-left: 79px;
@@ -130,5 +130,58 @@ a:hover {
   height: 334px;
   vertical-align: top;
   border-radius: 0px 9px 9px 0px;
+}
+/* ===============================================================*/
+/* Секция Features */
+.features {
+  padding: 80px 0;
+  width: 1440px;
+}
+.features-content {
+  margin-top: 40px;
+  font-size: 0px;
+}
+
+.card-title1-content,
+.card-title2-content,
+.card-title3-content {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 24px;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 322px;
+}
+.card-title2-content {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+.image-title-1,
+.image-title-2,
+.image-title-3 {
+  width: 274px;
+  height: 156px;
+}
+.card-subtitle-1,
+.card-subtitle-2,
+.card-subtitle-3 {
+  margin-top: 24px;
+  font-size: 32px;
+  line-height: 38px;
+}
+.card-description-1,
+.card-description-2,
+.card-description-3 {
+  font-size: 16px;
+  line-height: 19px;
+}
+.card-title-1-link,
+.card-title-2-link,
+.card-title-3-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: tomato;
 }
 /* ===============================================================*/
