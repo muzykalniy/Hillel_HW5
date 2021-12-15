@@ -5,8 +5,14 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
+.all_content {
+  width: 1440px;
+  margin: 0;
+  min-width: 1140px;
+}
 .container {
   max-width: 1140px;
+  min-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -183,5 +189,35 @@ a:hover {
   font-size: 16px;
   line-height: 19px;
   color: tomato;
+}
+/* ===============================================================*/
+
+/* Секция Footer */
+.footer {
+  padding: 32px 0;
+  width: 1440px;
+  height: 131px;
+  background: #f9f7e8;
+}
+.icons {
+  margin: 24px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 29px;
+}
+.fa-linkedin {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.footer-content p {
+  margin: 0 auto;
+  text-align: center;
+}
+.text_wisdom_footer {
+  text-decoration: underline;
+}
+.icons a:hover {
+  color: #d52047;
 }
 /* ===============================================================*/
