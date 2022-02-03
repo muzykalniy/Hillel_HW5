@@ -5,29 +5,21 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-.all_content {
-  width: 1440px;
-  margin: 0;
-  min-width: 1140px;
-}
+
 .container {
   max-width: 1140px;
-  min-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
 /* Шапка - навигация */
 .header {
-  width: 1440px;
-  height: 88px;
   padding-top: 24px;
   padding-bottom: 24px;
   background: #f9f7e8;
 }
 .logo {
   display: inline-block;
-  width: 181px;
-  height: 40px;
+
   font-family: Courgette;
   font-size: 32px;
   line-height: 40px;
@@ -73,8 +65,6 @@ a:hover {
 
 /* Hero */
 .hero {
-  width: 1440px;
-  height: 486px;
   background-color: #d52047;
   padding-top: 198px;
   padding-bottom: 172px;
@@ -106,7 +96,7 @@ a:hover {
 }
 .about {
   padding: 95px 0 80px;
-  width: 1440px;
+
   background-color: #eff8f6;
 }
 
@@ -141,7 +131,6 @@ a:hover {
 /* Секция Features */
 .features {
   padding: 80px 0;
-  width: 1440px;
 }
 .features-content {
   margin-top: 40px;
@@ -195,8 +184,7 @@ a:hover {
 /* Секция Footer */
 .footer {
   padding: 32px 0;
-  width: 1440px;
-  height: 131px;
+
   background: #f9f7e8;
 }
 .icons {
